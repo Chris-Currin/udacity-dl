@@ -1,5 +1,6 @@
 *.py[cod]
 .DS_Store
+credentials*
 
 # C extensions
 *.so

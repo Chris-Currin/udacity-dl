@@ -12,5 +12,5 @@ setup(name="udacity-dl",
       download_url="https://pypi.python.org/pypi/udacity-dl",
       packages=["udacitydl"],
       entry_points = { "console_scripts" : [ "udacity-dl = udacitydl.udacitydl:main"]},
-      install_requires=["mechanicalsoup","tqmd"],
-     )
+      install_requires=["mechanicalsoup","tqmd", 'selenium'],
+      )
